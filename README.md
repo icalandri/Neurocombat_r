@@ -6,6 +6,16 @@ https://github.com/Jfortin1/ComBatHarmonization
 
 How to install:
 
+If you're using view server please intall first Bioparalell
+
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install(version = "3.17")
+
+and matrixStats
+
+install.package("matrixStats")
+
 1. Download the code to your computer (make sure to unzip it after that)
 2. Open RStudio and go to Tools -> Install Packages in the menu
    
