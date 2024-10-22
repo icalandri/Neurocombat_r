@@ -11,6 +11,9 @@ If you're using view server please intall first Bioparalell
 if (!require("BiocManager", quietly = TRUE))
     install.packages("BiocManager")
 BiocManager::install(version = "3.17")
+if (!require("BiocManager", quietly = TRUE)) 
+install.packages("BiocManager") BiocManager::install(BiocParallel)
+
 
 and matrixStats
 
